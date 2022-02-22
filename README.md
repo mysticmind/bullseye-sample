@@ -10,5 +10,5 @@ This repo has a .NET sample project a below:
 - build related project is under `build` folder.
 - Use `build.sh`, `build.cmd` or `build.ps1` to run build.
 
-For more details check [blog post](https://mysticmind.dev/dotnet-build-tool-using-bullseye-and-simpleexec)
+For more details check [blog post](https://mysticmind.dev/dotnet-build-tool-using-bullseye-and-simpleexec).
  

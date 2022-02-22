@@ -22,7 +22,6 @@ Target("clean", () => Run("dotnet","clean src/WebApp/WebApp.csproj"));
 Target("compile", DependsOn("clean"), () => Run("dotnet","build ./src/WebApp/WebApp.csproj -c Release"));
 
 // Create a build target to watch for changes in dev
-// This build target depends on `clean` build target
 Target("watch", () => Run("dotnet", "watch --project ./src/WebApp/WebApp.csproj"));
 
 // Create a default target

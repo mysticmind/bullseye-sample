@@ -1,0 +1,7 @@
+node_modules
+.idea
+bin
+obj
+.DS_Store
+package-lock.json
+wwwroot

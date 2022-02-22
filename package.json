@@ -1,0 +1,16 @@
+{
+  "name": "bullseye-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "minify": "esbuild --minify ./src/WebApp/static/css/site.css --outdir=./src/WebApp/wwwroot/css",
+    "watch": "esbuild --watch ./src/WebApp/static/css/site.css --outdir=./src/WebApp/wwwroot/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.14.23"
+  }
+}
